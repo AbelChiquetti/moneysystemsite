@@ -24,8 +24,8 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title="Feito por Aplicadores, para Aplicadores."
+                paragraph="Com o MoneySystem, você vai poder ter em tempo real, a saúde financeira da sua empresa, rentabilidade dos seus produtos, podendo a cada venda realizada, sempre ver quais produtos que mais e melhor vendem e dão resultado pra sua operação, através de indicadores como CMV (Custo da Mercadoria Vendida) a cada venda realizada, como também do produto no geral por exemplo, como também, poderá traçar as suas metas de vendas e faturamento e monitorar o atingimento delas em tempo real a cada venda realizada com a uma previsão futura para que se tenha uma visão a longo prazo e se tenha visão de possíveis gargalos de vendas e problemas em atingir a metas."
                 mb="44px"
               />
 
@@ -35,15 +35,15 @@ const AboutSectionOne = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
+                    <List text="Primeiro e Único do Brasil" />
+                    <List text="Tenha os Números do Seu Negócio" />
+                    <List text="Tenha a Previsão de Vendas" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
+                    <List text="Relatórios Completos" />
+                    <List text="Emissão de NF Automática" />
+                    <List text="Fidelize Seus Clientes" />
                   </div>
                 </div>
               </div>

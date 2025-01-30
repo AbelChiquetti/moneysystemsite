@@ -27,7 +27,7 @@ const Pricing = () => {
                   : "text-dark dark:text-white"
               } mr-4 cursor-pointer text-base font-semibold`}
             >
-              Monthly
+              Mensal
             </span>
             <div
               onClick={() => setIsMonthly(!isMonthly)}
@@ -52,7 +52,7 @@ const Pricing = () => {
                   : "pointer-events-none text-primary"
               } ml-4 cursor-pointer text-base font-semibold`}
             >
-              Yearly
+              Anual
             </span>
           </div>
         </div>
@@ -62,40 +62,40 @@ const Pricing = () => {
             packageName="Plano Prata"
             price={isMonthly ? "120" : "1200"}
             duration={isMonthly ? "mês" : "ano"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="Mude o Jogo do Seu Negócio"
           >
             <OfferList text="Tudo do Plano Grátis e..." status="active" />
             <OfferList text="Relatórios Completos" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="inactive" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList text="Até 5 Usuários" status="active" />
+            <OfferList text="Agenda Inteligente" status="active" />
+            <OfferList text="Pedidos de Compra" status="inactive" />
+            <OfferList text="Algo" status="inactive" />
           </PricingBox>
           <PricingBox
             packageName="Plano Ouro"
             price={isMonthly ? "180" : "1800"}
             duration={isMonthly ? "mês" : "ano"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="Para Quem Vai Evoluir"
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList text="Tudo do Plano Prata e..." status="active" />
+            <OfferList text="Emissão de NF" status="active" />
+            <OfferList text="Até 10 Usuários" status="active" />
+            <OfferList text="Demonstração do Resultado do Exercício" status="active" />
+            <OfferList text="Suporte Prioritário" status="active" />
+            <OfferList text="Algo" status="inactive" />
           </PricingBox>
           <PricingBox
             packageName="Plano Diamante"
             price={isMonthly ? "425" : "4250"}
             duration={isMonthly ? "mês" : "ano"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="Emita Nota Fiscal Automaticamente"
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="active" />
+            <OfferList text="Tudo do Plano Ouro e..." status="active" />
+            <OfferList text="Até 50 Usuários" status="active" />
+            <OfferList text="Previsão de Vendas" status="active" />
+            <OfferList text="Algo" status="active" />
+            <OfferList text="Algo" status="active" />
+            <OfferList text="Algo" status="active" />
           </PricingBox>
         </div>
       </div>
