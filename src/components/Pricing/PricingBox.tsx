@@ -25,7 +25,7 @@ const PricingBox = (props: {
         <div className="mb-8 border-b border-body-color border-opacity-10 pb-8 dark:border-white dark:border-opacity-10">
         <button
   className="flex w-full items-center justify-center rounded-sm bg-primary p-3 text-base font-semibold text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp"
-  onClick={() => window.location.href = 'https://wa.me/5548988745520?text=Ol%C3%A1!%20Tenho%20interesse%20em%20fazer%20o%20teste%20gr%C3%A1tis'}
+  onClick={() => window.location.href = 'https://api.whatsapp.com/send/?phone=5548988745520&text=Ol%C3%A1%21+Tenho+interesse+em+fazer+o+teste+gr%C3%A1tis'}
 >
   Selecionar
 </button>

@@ -160,13 +160,13 @@ const Header = () => {
               </div>
               <div className="flex items-center justify-end pr-16 lg:pr-0">
                 <Link
-                  href="/signin"
+                  href="https://app.moneysystem.com.br"
                   className="hidden px-7 py-3 text-base font-medium text-dark hover:opacity-70 dark:text-white md:block"
                 >
                   Acessar Sistema
                 </Link>
                 <Link
-                  href="/signup"
+                  href="https://api.whatsapp.com/send/?phone=5548988745520&text=Ol%C3%A1%21+Tenho+interesse+em+fazer+o+teste+gr%C3%A1tis"
                   className="ease-in-up shadow-btn hover:shadow-btn-hover hidden rounded-sm bg-primary px-8 py-3 text-base font-medium text-white transition duration-300 hover:bg-opacity-90 md:block md:px-9 lg:px-6 xl:px-9"
                 >
                   Criar Conta
