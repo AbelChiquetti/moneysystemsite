@@ -5,29 +5,20 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "Cristiane Ferreira Rosa",
+    designation: "Financeiro da LunarFilm",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-01.png",
+      "Durante anos, enfrentei grandes desafios com o sistema de faturamento na LunarFilm, o que causava atrasos e retrabalho, afetando a eficiência e sobrecarregando a equipe. A implementação do MoneySystem foi um divisor de águas, pois automatizou processos e otimizou a gestão financeira, eliminando erros e diminuindo o tempo gasto com burocracia. Agora, podemos focar em aplicar películas com qualidade e agilidade, sem as preocupações com atrasos ou falhas no faturamento. O sistema transformou nossa gestão financeira, tornando a área um aliado estratégico para o crescimento da empresa.",
+    image: "/images/testimonials/cristiane.webp",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "Edson Pereira",
+    designation: "CEO da AplicarFilms",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-02.png",
-    star: 5,
-  },
-  {
-    id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
-    content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-03.png",
+      "Com 29 anos de experiência no mercado de películas, enfrentei muitos desafios na gestão financeira da minha empresa, especialmente para visualizar a saúde financeira de forma clara. Desde que começamos a usar o MoneySystem, tivemos uma verdadeira transformação. Pela primeira vez, conseguimos gerar um DRE de forma simples e eficiente, com uma visão clara dos lucros, custos e margens de lucro. O sistema não só organizou nossas finanças, mas também nos deu confiança para tomar decisões mais assertivas, melhorando o controle financeiro e permitindo um crescimento sólido e sem surpresas. Nunca imaginei que o MoneySystem fosse ser o diferencial para atingirmos um controle financeiro de ponta.",
+    image: "/images/testimonials/edson.webp",
     star: 5,
   },
 ];
