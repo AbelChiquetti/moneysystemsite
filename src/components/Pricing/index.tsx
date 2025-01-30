@@ -59,9 +59,9 @@ const Pricing = () => {
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
           <PricingBox
-            packageName="Lite"
+            packageName="Plano Prata"
             price={isMonthly ? "120" : "1200"}
-            duration={isMonthly ? "mo" : "yr"}
+            duration={isMonthly ? "mês" : "ano"}
             subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
           >
             <OfferList text="Tudo do Plano Grátis e..." status="active" />
@@ -72,9 +72,9 @@ const Pricing = () => {
             <OfferList text="Free Lifetime Updates" status="inactive" />
           </PricingBox>
           <PricingBox
-            packageName="Basic"
+            packageName="Plano Ouro"
             price={isMonthly ? "180" : "1800"}
-            duration={isMonthly ? "mo" : "yr"}
+            duration={isMonthly ? "mês" : "ano"}
             subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
           >
             <OfferList text="All UI Components" status="active" />
@@ -85,9 +85,9 @@ const Pricing = () => {
             <OfferList text="Free Lifetime Updates" status="inactive" />
           </PricingBox>
           <PricingBox
-            packageName="Plus"
+            packageName="Plano Diamante"
             price={isMonthly ? "425" : "4250"}
-            duration={isMonthly ? "mo" : "yr"}
+            duration={isMonthly ? "mês" : "ano"}
             subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
           >
             <OfferList text="All UI Components" status="active" />
