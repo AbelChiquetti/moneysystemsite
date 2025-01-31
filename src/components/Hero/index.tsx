@@ -11,25 +11,26 @@ const Hero = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div className="mx-auto max-w-[800px] text-center">
-                <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                  Mais tempo pra você. Mais resultado para a sua empresa
-                </h1>
+              <h1 className="mb-5 text-3xl font-bold leading-tight text-[#5ab334] transition-colors duration-300 ease-in-out hover:text-[#7ecf42] sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
+  Mais tempo pra você. Mais resultado para a sua empresa.
+</h1>
                 <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
                   O 1º software de gestão exclusivo para o mercado de películas!
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
-                  <Link
-                    href="https://api.whatsapp.com/send/?phone=5548988745520&text=Ol%C3%A1%21+Tenho+interesse+em+fazer+o+teste+gr%C3%A1tis"
-                    className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
-                  >
-                    🔥 Teste Grátis
-                  </Link>
-                  <Link
-                    href="https://api.whatsapp.com/send/?phone=5548988745520&text=Ol%C3%A1%21+Tenho+interesse+em+fazer+o+teste+gr%C3%A1tis"
-                    className="inline-block rounded-sm bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
-                  >
-                    WhatsApp
-                  </Link>
+                <Link
+  href="https://api.whatsapp.com/send/?phone=5548988745520&text=Ol%C3%A1%21+Tenho+interesse+em+fazer+o+teste+gr%C3%A1tis"
+  className="inline-block rounded-sm bg-gradient-to-r from-[#5ab334] to-[#4d9c2e] px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:from-[#4d9c2e] hover:to-[#5ab334]"
+>
+  🔥 Teste Grátis
+</Link>
+
+<Link
+  href="https://api.whatsapp.com/send/?phone=5548988745520&text=Ol%C3%A1%21+Tenho+interesse+em+fazer+o+teste+gr%C3%A1tis"
+  className="inline-block rounded-sm bg-[#25d366] px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-[#128c7e]"
+>
+  WhatsApp
+</Link>
                 </div>
               </div>
             </div>
