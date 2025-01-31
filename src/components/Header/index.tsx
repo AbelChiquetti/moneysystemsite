@@ -166,11 +166,11 @@ const Header = () => {
                   Acessar Sistema
                 </Link>
                 <Link
-                  href="https://api.whatsapp.com/send/?phone=5548988745520&text=Ol%C3%A1%21+Tenho+interesse+em+fazer+o+teste+gr%C3%A1tis"
-                  className="ease-in-up shadow-btn hover:shadow-btn-hover hidden rounded-sm bg-primary px-8 py-3 text-base font-medium text-white transition duration-300 hover:bg-opacity-90 md:block md:px-9 lg:px-6 xl:px-9"
-                >
-                  Criar Conta
-                </Link>
+  href="https://api.whatsapp.com/send/?phone=5548988745520&text=Ol%C3%A1%21+Tenho+interesse+em+fazer+o+teste+gr%C3%A1tis"
+  className="ease-in-up shadow-btn hover:shadow-btn-hover hidden rounded-sm bg-[#5ab334] px-8 py-3 text-base font-medium text-white transition duration-300 hover:bg-[#6cb640] md:block md:px-9 lg:px-6 xl:px-9"
+>
+  Criar Conta
+</Link>
                 <div>
                   <ThemeToggler />
                 </div>
