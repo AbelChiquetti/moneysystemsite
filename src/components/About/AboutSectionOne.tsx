@@ -23,18 +23,11 @@ const AboutSectionOne = () => {
         <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
-            const title = (
-  <>
-    Feito por <span className="text-[#5ab334]">Aplicadores</span>, para{" "}
-    <span className="text-[#5ab334]">Aplicadores</span>.
-  </>
-);
-
-<SectionTitle
-  title={title}
-  paragraph="Com o MoneySystem, você vai poder ter em tempo real, a saúde financeira da sua empresa, rentabilidade dos seus produtos, podendo a cada venda realizada, sempre ver quais produtos que mais e melhor vendem e dão resultado pra sua operação, através de indicadores como CMV (Custo da Mercadoria Vendida) a cada venda realizada, como também do produto no geral por exemplo, como também, poderá traçar as suas metas de vendas e faturamento e monitorar o atingimento delas em tempo real a cada venda realizada com a uma previsão futura para que se tenha uma visão a longo prazo e se tenha visão de possíveis gargalos de vendas e problemas em atingir a metas."
-  mb="44px"
-/>
+              <SectionTitle
+                title="Feito por Aplicadores, para Aplicadores."
+                paragraph="Com o MoneySystem, você vai poder ter em tempo real, a saúde financeira da sua empresa, rentabilidade dos seus produtos, podendo a cada venda realizada, sempre ver quais produtos que mais e melhor vendem e dão resultado pra sua operação, através de indicadores como CMV (Custo da Mercadoria Vendida) a cada venda realizada, como também do produto no geral por exemplo, como também, poderá traçar as suas metas de vendas e faturamento e monitorar o atingimento delas em tempo real a cada venda realizada com a uma previsão futura para que se tenha uma visão a longo prazo e se tenha visão de possíveis gargalos de vendas e problemas em atingir a metas."
+                mb="44px"
+              />
               <div
                 className="mb-12 max-w-[570px] lg:mb-0"
                 data-wow-delay=".15s"
